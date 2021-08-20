@@ -34,10 +34,11 @@
                                                 <div class="sc_call_to_action_info">
                                                     <h6 class="sc_call_to_action_subtitle sc_item_subtitle">Chi siamo</h6>
                                                     <div class="sc_call_to_action_descr sc_item_descr">
-                                                        Il sito che è stato creato, ha lo scopo di gestire al meglio richieste di eventi di ogni tipo </br>
+                                                        Il sito che è stato creato, ha lo scopo di gestire al meglio richieste di eventi di ogni tipo. </br>
                                                         All'interno del sito infatti, l'utente sarà in grado di scegliere l'evento che più
                                                         gli piace, selezionandolo a seconda delle proprie preferenze, quali artisti e generi preferiti</br>
-                                                        Molte altre funzionalità sono incluse effettuando la registrazione al sito, accedi e scopri!
+                                                        Molte altre funzionalità sono incluse effettuando la registrazione al sito, accedi e scoprile!
+                                                        Ti apettiamo!!!
                                                     </div>
                                                     <div class="sc_call_to_action_buttons sc_item_buttons ">
                                                     </div>
