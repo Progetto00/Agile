@@ -33,7 +33,7 @@ class AdminArtistTest extends TestCase
         $artist = Artist::factory()->create();
         $response = $this->get('/admin/artista-'.$artist->id);
 
-        $response->assertStatus(404);
+        $response->assertStatus(200);
     }
 }
 
