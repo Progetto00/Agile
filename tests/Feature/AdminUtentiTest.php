@@ -16,7 +16,7 @@ class AdminUtentiTest extends TestCase {
         $user = User::factory()->create();
         $response = $this->post('/login', [
             'email' => $user->email,
-            'password' => 'password',
+            'password' => $user->password,
         ]);
         $this->assertAuthenticated();
 
@@ -30,7 +30,7 @@ class AdminUtentiTest extends TestCase {
         $user = User::factory()->create();
         $response = $this->post('/login', [
             'email' => $user->email,
-            'password' => 'password',
+            'password' => $user->password,
         ]);
         $this->assertAuthenticated();
 
