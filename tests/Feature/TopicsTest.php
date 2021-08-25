@@ -15,6 +15,7 @@ class TopicsTest extends TestCase
      *
      * @return void
      */
+    //se si apre la rotta della views che mostra l'elenco dei topics il test passa
     public function test_pagina_elenco_topics()
     {
         $topics = Topic::factory()->create();
