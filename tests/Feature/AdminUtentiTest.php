@@ -10,7 +10,7 @@ class AdminUtentiTest extends TestCase {
 
     use RefreshDatabase;
 
-    public function test_carica_pagina() {
+    public function test_carica_pagina1() {
 
         // Autenticazione
         $user = User::factory()->create();
