@@ -128,15 +128,15 @@
                                                     <div class="column-1_2 sc_column_item sc_column_item_1 odd first">
                                                         <h6 class="sc_title sc_title_style_3">Bisogna registrarsi prima di acquistare un biglietto?</h6>
                                                         <div class="margin_bottom_45">
-                                                            <p>Si, Per poter accedere tramite il nostro apposito login.</p>
+                                                            <p>Si, per poter accedere tramite il nostro apposito login.</p>
                                                         </div>
                                                         <h6 class="sc_title sc_title_style_3">Ci sono vincoli nell'acquisto di un biglietto?</h6>
                                                         <div class="margin_bottom_45">
-                                                            <p>No, non ci sono vincoli di acquisto su nessun biglietti, esso può essere revocato senza costi aggiuntivi</p>
+                                                            <p>No, non ci sono vincoli di acquisto su nessun biglietto, esso può essere revocato senza costi aggiuntivi</p>
                                                         </div>
                                                         <h6 class="sc_title sc_title_style_3">E' possibile scegliere combinazioni sugli eventi?</h6>
                                                         <div class="">
-                                                            <p>In un offerta è possibile scegliere gli eventi da in cui si vuole partecipare e gli artisti preferiti</p>
+                                                            <p>In un'offerta è possibile scegliere gli eventi in cui si vuole partecipare e gli artisti preferiti</p>
                                                         </div>
                                                     </div><div class="column-1_2 sc_column_item sc_column_item_2 even">
                                                         <h6 class="sc_title sc_title_style_3">E' possibile scegliere date in base al cliente?</h6>
