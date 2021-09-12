@@ -29,7 +29,7 @@ class ArtistFactory extends Factory
             'nome_arte' => $this->faker->userName(),
             'data_di_nascita' => now(),
             'luogo_di_nascita' => $this->faker->city(),
-            'biografia' => $this->faker->text(),
+            'biografia' => $this->faker->text(100),
             'id_copertina' => $image->id
         ];
     }
