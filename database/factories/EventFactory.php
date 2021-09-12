@@ -32,7 +32,7 @@ class EventFactory extends Factory
             'indirizzo' =>$this->faker->address,
             'data_ora_inizio' =>'2020-12-15 08:00:00',
             'data_ora_fine' =>'2020-12-20 23:00:00',
-            'tipologia' => 'concerto',
+            'tipologia' => 'Concerto',
             'policy' => 'nessuna policy',
             'max_iscritti' => $this->faker->numberBetween('10','500'),
             'tipologia_iscrizione' =>'0',
