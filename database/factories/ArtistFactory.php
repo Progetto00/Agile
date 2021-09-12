@@ -28,7 +28,7 @@ class ArtistFactory extends Factory
             'cognome' => $this->faker->lastName(),
             'nome_arte' => $this->faker->userName(),
             'data_di_nascita' => now(),
-            'luogo_di_nascita' => 'Pescara',
+            'luogo_di_nascita' => $this->faker->city(),
             'biografia' => 'grande artista',
             'id_copertina' => $image->id
         ];
