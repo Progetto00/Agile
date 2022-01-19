@@ -31,8 +31,8 @@ class SendMail extends Mailable
     public function build() {
 
         if (isset($this->data['action']))
-            return $this->from('infoeventi@eventsapp.it')->subject('Un nuovo evento ti aspetta')->view('nuovo_evento')->with('data', $this->data);
+            return $this->from('globex.corporation@univaq.it')->subject('Un nuovo evento ti aspetta')->view('nuovo_evento')->with('data', $this->data);
         else
-            return $this->from('infoeventi@eventsapp.it')->subject('Acquisto biglietti nuovo evento')->view('iscrizione_evento_email')->with('data', $this->data);
+            return $this->from('globex.corporation@univaq.it')->subject('Acquisto biglietti nuovo evento')->view('iscrizione_evento_email')->with('data', $this->data);
     }
 }
