@@ -64,7 +64,7 @@ Route::post('/acquisto-simulato', [\App\Http\Controllers\EventController::class,
 Route::post('/calendario-eventi-preferiti', [\App\Http\Controllers\CalendarioSottoeventiController::class, 'favoriteSubevent'])->name('calendario-eventi-preferiti')->middleware('auth');
 Route::post('/lista-utenti', [\App\Http\Controllers\ChatController::class, 'cercaUtente'])->name('lista-utenti')->middleware('auth');
 Route::post('/chat-utente-{id}', [\App\Http\Controllers\ChatController::class, 'invioMessaggio'])->name('chat-utente')->middleware('auth');
-
+Route::post('/send-message', [\App\Http\Controllers\ContactController::class, 'sendEmail'])->name('contact.send');
 Route::middleware('admin')->group(function () {
     // Rotte ADMIN
     Route::get('/admin/dashboard', [\App\Http\Controllers\DashboardAdminController::class, 'vediTutto'])->name('admin.dashboard');
