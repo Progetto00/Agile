@@ -68,6 +68,9 @@
 											<li class="menu-item menu-item-has-children">
 												<a href="{{ route('about') }}">Chi siamo</a>
 											</li>
+											<li class="menu-item">
+												<a href="{{ route('contact-us') }}">Contattaci</a>
+											</li>
 											<li class="menu-item menu-item-has-children">
 												<a href="{{ route('topics') }}">Tematiche</a>
 											</li>
