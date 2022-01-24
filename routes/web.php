@@ -43,7 +43,7 @@ Route::get('/eventi-consigliati', [\App\Http\Controllers\EventController::class,
 Route::get('/calendario-eventi-prenotati', [\App\Http\Controllers\CalendarioEventiPrenotatiController::class,'visualizzaCalendario'])->name('calendario-eventi-prenotati')->middleware('auth');
 Route::get('/eventi-prenotati', [\App\Http\Controllers\EventiPrenotatiController::class,'visualizzaEventi'])->name('eventi-prenotati')->middleware('auth');
 Route::get('/send-testenrollment',[TestEnrollmentController::class, 'sendTestNotification']);
-
+Route::get('/contact-us',[\App\Http\Controllers\ContactController::class,'contact'])->name('contact-us');
 // rotte mail
 Route::get('/email', function() {
     Mail::to('casciani99@gmail.com')->send(new WelcomeMail());
